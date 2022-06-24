@@ -1,0 +1,11 @@
+package com.chandra.students;
+
+import org.springframework.stereotype.Repository;
+@Repository
+public class StudentRepository extends CrudRepositor <Student,Integer>{
+	
+	
+
+	
+
+}

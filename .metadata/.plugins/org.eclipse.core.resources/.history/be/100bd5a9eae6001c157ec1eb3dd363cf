@@ -1,0 +1,43 @@
+package com.chandra.groceries;
+
+public class groceries {
+	
+	private int id;
+	private String name;
+	private int mrp;
+	
+	
+	public groceries(int id, String sname, int mrp) {
+		super();
+		this.id = id;
+		this.name = sname;
+		this.mrp = mrp;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getSname() {
+		return name;
+	}
+	public void setSname(String sname) {
+		this.name = sname;
+	}
+	public int getMrp() {
+		return mrp;
+	}
+	public void setMrp(int mrp) {
+		this.mrp = mrp;
+	}
+	@Override
+	public String toString() {
+		return "groceries [id=" + id + ", name=" + name + ", mrp=" + mrp + "]";
+	}
+	
+	
+	
+	
+
+}
